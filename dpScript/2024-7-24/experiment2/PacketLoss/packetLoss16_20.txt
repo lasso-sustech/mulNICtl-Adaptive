@@ -1,0 +1,37 @@
+{'throughput': '15.646', 'packet_loss': '0.00495', 'stuttering rate': '0.00076'}
+{'throughput': '15.648', 'packet_loss': '0.00413', 'stuttering rate': '0.00068'}
+{'throughput': '15.708', 'packet_loss': '0.00165', 'stuttering rate': '0.00087'}
+{'throughput': '15.702', 'packet_loss': '0.00083', 'stuttering rate': '0.00080'}
+{'throughput': '11.648'}
+{'throughput': '11.690'}
+{'throughput': '26.330'}
+{'throughput': '26.382'}
+{'throughput': '25.907'}
+{'throughput': '25.969'}
+{'throughput': '26.109'}
+{'throughput': '26.101'}
+{}
+{}
+{}
+{}
+{}
+{}
+Adaptive:
+{'throughput': '15.739', 'packet_loss': '0.00422', 'stuttering rate': '0.00073'}
+{'throughput': '15.759', 'packet_loss': '0.00375', 'stuttering rate': '0.00075'}
+{'throughput': '15.773', 'packet_loss': '0.00258', 'stuttering rate': '0.00086'}
+{'throughput': '15.772', 'packet_loss': '0.00305', 'stuttering rate': '0.00085'}
+{'throughput': '23.544'}
+{'throughput': '23.557'}
+{'throughput': '25.654'}
+{'throughput': '25.880'}
+{'throughput': '25.458'}
+{'throughput': '25.432'}
+{'throughput': '26.183'}
+{'throughput': '26.195'}
+{}
+{}
+{}
+{}
+{}
+{}

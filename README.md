@@ -1,1 +1,2 @@
-# mulNICtl-Adaptive
+# mulNICtl
+Control script for multiple NICs

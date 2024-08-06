@@ -1,0 +1,421 @@
+[{
+  "data_frac": 1.0,
+  "rtt": 0.003641338,
+  "channel_rtts": [
+    0.0,
+    0.000211309
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9765208110992529
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003632708,
+  "channel_rtts": [
+    0.0,
+    0.000207976
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9610458911419424
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003645199,
+  "channel_rtts": [
+    0.0,
+    0.000213417
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9818569903948773
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00366195,
+  "channel_rtts": [
+    0.0,
+    0.000197363
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9743863393810032
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003650374,
+  "channel_rtts": [
+    0.0,
+    0.000216022
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9701173959445037
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005768861,
+  "channel_rtts": [
+    0.0,
+    0.001178693
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983991462113126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005799958,
+  "channel_rtts": [
+    0.0,
+    0.001142151
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9967982924226254
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005792375,
+  "channel_rtts": [
+    0.0,
+    0.001072263
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9967982924226254
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005776869,
+  "channel_rtts": [
+    0.0,
+    0.001031727
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9967982924226254
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005775107,
+  "channel_rtts": [
+    0.0,
+    0.001051743
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9978655282817502
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005719396,
+  "channel_rtts": [
+    0.0,
+    0.001063969
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983982915109451
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005726751,
+  "channel_rtts": [
+    0.0,
+    0.001075259
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005678615,
+  "channel_rtts": [
+    0.0,
+    0.000824342
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.996262680192205
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005722748,
+  "channel_rtts": [
+    0.0,
+    0.000953091
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00572333,
+  "channel_rtts": [
+    0.0,
+    0.001008384
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99679658302189
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007128737,
+  "channel_rtts": [
+    0.0,
+    0.001588764
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.999466097170315
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007322675,
+  "channel_rtts": [
+    0.0,
+    0.001292862
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007190187,
+  "channel_rtts": [
+    0.0,
+    0.001524192
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99893219434063
+  ]
+},
+{
+  "data_frac": 0.999466097170315,
+  "rtt": 0.007132,
+  "channel_rtts": [
+    0.0,
+    0.001461837
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9973290598290598
+  ]
+},
+{
+  "data_frac": 0.999466097170315,
+  "rtt": 0.007196245,
+  "channel_rtts": [
+    0.0,
+    0.00143621
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9978632478632479
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007889271,
+  "channel_rtts": [
+    0.0,
+    0.001583806
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.996262680192205
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007760049,
+  "channel_rtts": [
+    0.0,
+    0.001631474
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.999465811965812
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.007993828,
+  "channel_rtts": [
+    0.0,
+    0.001667556
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9994655264564404
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008040067,
+  "channel_rtts": [
+    0.0,
+    0.001573726
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9973290598290598
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008030596,
+  "channel_rtts": [
+    0.0,
+    0.001474145
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009802588,
+  "channel_rtts": [
+    0.0,
+    0.002025401
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9978632478632479
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009372689,
+  "channel_rtts": [
+    0.0,
+    0.002266643
+  ],
+  "channel_probabilities": [
+    0.0,
+    1.0
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.009009473,
+  "channel_rtts": [
+    0.0,
+    0.002310734
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9994655264564404
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009626388,
+  "channel_rtts": [
+    0.0,
+    0.002371535
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9973290598290598
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009814005,
+  "channel_rtts": [
+    0.0,
+    0.001954956
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983974358974359
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.01302655,
+  "channel_rtts": [
+    0.0,
+    0.002614619
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9978632478632479
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012846367,
+  "channel_rtts": [
+    0.0,
+    0.002941596
+  ],
+  "channel_probabilities": [
+    0.0,
+    1.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012621955,
+  "channel_rtts": [
+    0.0,
+    0.00316351
+  ],
+  "channel_probabilities": [
+    0.0,
+    1.0
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.011268229,
+  "channel_rtts": [
+    0.0,
+    0.002313042
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997327632282202
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012991977,
+  "channel_rtts": [
+    0.0,
+    0.002852616
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983974358974359
+  ]
+}
+]

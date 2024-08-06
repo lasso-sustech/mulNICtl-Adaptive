@@ -1,0 +1,1431 @@
+[[
+    {
+        "channel_probabilities": [
+            0.9924650161463939,
+            0.0
+        ],
+        "channel_rtts": [
+            16.691896,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.04,
+        "name": "proj1",
+        "rtt": 16.691896,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9967845659163987,
+            0.0
+        ],
+        "channel_rtts": [
+            18.795254,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.799,
+        "name": "proj2",
+        "rtt": 18.795254,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 212.763,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9978354978354979,
+            0.0
+        ],
+        "channel_rtts": [
+            13.773439,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.257,
+        "name": "proj1",
+        "rtt": 13.773439,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9967672413793104,
+            0.0
+        ],
+        "channel_rtts": [
+            14.584168,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 14.584168,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 218.136,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9946120689655172,
+            0.0
+        ],
+        "channel_rtts": [
+            15.505312,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.857,
+        "name": "proj1",
+        "rtt": 15.505312,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            17.711446,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 17.711446,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 215.641,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9946004319654428,
+            0.0
+        ],
+        "channel_rtts": [
+            14.733753,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.56,
+        "name": "proj1",
+        "rtt": 14.733753,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989258861439313,
+            0.0
+        ],
+        "channel_rtts": [
+            15.417276000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 15.417276000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 218.444,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9945887445887446,
+            0.0
+        ],
+        "channel_rtts": [
+            15.507563000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.382,
+        "name": "proj1",
+        "rtt": 15.507563000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989281886387996,
+            0.0
+        ],
+        "channel_rtts": [
+            17.967472,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.761,
+        "name": "proj2",
+        "rtt": 17.967472,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 214.004,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9935414424111948,
+            0.0
+        ],
+        "channel_rtts": [
+            15.273810000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 43.929,
+        "name": "proj1",
+        "rtt": 15.273810000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            17.232459,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.812,
+        "name": "proj2",
+        "rtt": 17.232459,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 212.895,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9924324324324324,
+            0.0
+        ],
+        "channel_rtts": [
+            15.824143999999999,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.545,
+        "name": "proj1",
+        "rtt": 15.824143999999999,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9978540772532188,
+            0.0
+        ],
+        "channel_rtts": [
+            27.544884,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.648,
+        "name": "proj2",
+        "rtt": 27.544884,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 208.665,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9881593110871906,
+            0.0
+        ],
+        "channel_rtts": [
+            16.510297,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 42.919,
+        "name": "proj1",
+        "rtt": 16.510297,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989281886387996,
+            0.0
+        ],
+        "channel_rtts": [
+            20.496403,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 20.496403,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 203.517,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9892125134843581,
+            0.0
+        ],
+        "channel_rtts": [
+            15.705704,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 42.324,
+        "name": "proj1",
+        "rtt": 15.705704,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989247311827957,
+            0.0
+        ],
+        "channel_rtts": [
+            30.109764000000002,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.653,
+        "name": "proj2",
+        "rtt": 30.109764000000002,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 205.48,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9956663055254604,
+            0.0
+        ],
+        "channel_rtts": [
+            14.479178000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.521,
+        "name": "proj1",
+        "rtt": 14.479178000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            15.849647000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 15.849647000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 219.98,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9967532467532467,
+            0.0
+        ],
+        "channel_rtts": [
+            14.689004,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.234,
+        "name": "proj1",
+        "rtt": 14.689004,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9978586723768736,
+            0.0
+        ],
+        "channel_rtts": [
+            15.115077,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.76,
+        "name": "proj2",
+        "rtt": 15.115077,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 223.715,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9903121636167922,
+            0.0
+        ],
+        "channel_rtts": [
+            13.83887,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.149,
+        "name": "proj1",
+        "rtt": 13.83887,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9978563772775991,
+            0.0
+        ],
+        "channel_rtts": [
+            16.06718,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 16.06718,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 195.846,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9870689655172413,
+            0.0
+        ],
+        "channel_rtts": [
+            15.085118,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 42.55,
+        "name": "proj1",
+        "rtt": 15.085118,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9957127545551983,
+            0.0
+        ],
+        "channel_rtts": [
+            14.284451,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.812,
+        "name": "proj2",
+        "rtt": 14.284451,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 220.347,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9946120689655172,
+            0.0
+        ],
+        "channel_rtts": [
+            15.585185999999998,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.836,
+        "name": "proj1",
+        "rtt": 15.585185999999998,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9978586723768736,
+            0.0
+        ],
+        "channel_rtts": [
+            24.745163,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 24.745163,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 215.464,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9956896551724138,
+            0.0
+        ],
+        "channel_rtts": [
+            14.733697000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.381,
+        "name": "proj1",
+        "rtt": 14.733697000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989281886387996,
+            0.0
+        ],
+        "channel_rtts": [
+            18.858179999999997,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 18.858179999999997,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 211.059,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9924650161463939,
+            0.0
+        ],
+        "channel_rtts": [
+            15.511161000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.371,
+        "name": "proj1",
+        "rtt": 15.511161000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989293361884368,
+            0.0
+        ],
+        "channel_rtts": [
+            18.749841999999997,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 18.749841999999997,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 209.668,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9989224137931034,
+            0.0
+        ],
+        "channel_rtts": [
+            14.173642000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.34,
+        "name": "proj1",
+        "rtt": 14.173642000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9956896551724138,
+            0.0
+        ],
+        "channel_rtts": [
+            32.562138999999995,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.577,
+        "name": "proj2",
+        "rtt": 32.562138999999995,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 212.993,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            14.525797,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.907,
+        "name": "proj1",
+        "rtt": 14.525797,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9978494623655914,
+            0.0
+        ],
+        "channel_rtts": [
+            15.701448,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 15.701448,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 212.185,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            15.869918,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 15.869918,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            0.9989281886387996,
+            0.0
+        ],
+        "channel_rtts": [
+            13.683073,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 46.928,
+        "name": "proj2",
+        "rtt": 13.683073,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 224.458,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            16.764746,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 16.764746,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            13.506919,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 47.674,
+        "name": "proj2",
+        "rtt": 13.506919,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 225.477,
+        "name": "interference"
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            3.966259,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 43.562,
+        "name": "proj1",
+        "rtt": 3.966259,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.7170559999999995,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 4.7170559999999995,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            3.93603,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.549,
+        "name": "proj1",
+        "rtt": 3.93603,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            3.994363,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.76,
+        "name": "proj2",
+        "rtt": 3.994363,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.047009,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.75,
+        "name": "proj1",
+        "rtt": 4.047009,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.244536,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 4.244536,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.016944,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 43.455,
+        "name": "proj1",
+        "rtt": 4.016944,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.2763219999999995,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 4.2763219999999995,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.083545,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.203,
+        "name": "proj1",
+        "rtt": 4.083545,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            5.402662,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 5.402662,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.004151,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 44.265,
+        "name": "proj1",
+        "rtt": 4.004151,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.544175999999999,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 4.544175999999999,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.282043,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 45.574,
+        "name": "proj1",
+        "rtt": 4.282043,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.593591999999999,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.813,
+        "name": "proj2",
+        "rtt": 4.593591999999999,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.182442,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 45.07,
+        "name": "proj1",
+        "rtt": 4.182442,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            3.951197,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.811,
+        "name": "proj2",
+        "rtt": 3.951197,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.079483,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 45.202,
+        "name": "proj1",
+        "rtt": 4.079483,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.174611,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.759,
+        "name": "proj2",
+        "rtt": 4.174611,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            4.068403,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 45.99,
+        "name": "proj1",
+        "rtt": 4.068403,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            3.7979659999999997,
+            0.0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.812,
+        "name": "proj2",
+        "rtt": 3.7979659999999997,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    }
+]]

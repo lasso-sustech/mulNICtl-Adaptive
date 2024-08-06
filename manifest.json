@@ -1,0 +1,381 @@
+{
+    "name": "",
+    "codebase": {
+        "manifest": "manifest.json",
+        "tap": "tap.py",
+        "install": "install.py",
+        "requirements": "requirements.txt",
+        "data": "stream-replay/data/*",
+        "src": "stream-replay/src/*",
+        "src/core": "stream-replay/src/core/*",
+        "src/rx": "stream-replay/src/rx/*",
+        "src/tx": "stream-replay/src/tx/*",
+        "src/rx/statistic": "stream-replay/src/rx/statistic/*",
+        "src/tx/statistic": "stream-replay/src/tx/statistic/*",
+        "solver": "solver/*",
+        "solver/src": "solver/src/*",
+        "solver/src/core": "solver/src/cores/*",
+        "solver/src/api": "solver/src/api/*",
+        "solver/src/types": "solver/src/types/*",
+        "solver/src/tests": "solver/src/tests/*",
+        "solver/toml" : "solver/Cargo.toml",
+        "toml" : "stream-replay/Cargo.toml",
+        "tool":"tools/*",
+        "util": "util/*",
+        "util/api": "util/api/*"
+    },
+    "functions": {
+        "outputs_throughput": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "duration": 10,
+                "port": 0
+            },
+            "commands": [
+                "(cd stream-replay; ./target/release/stream-replay-rx $port $duration)"
+            ],
+            "outputs": {
+                "throughput": {
+                    "cmd": "echo $output_0",
+                    "format": "Average Throughput: (\\d+\\.\\d+) Mbps"
+                } 
+            }
+        },
+        "control_info": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "target-ips": "",
+                "name2ipc": "",
+                "base-info":"",
+                "monitor-ip":""
+            },
+            "commands": [
+                "(cd solver; cargo run -- --target-ips=$target-ips --name2ipc=$name2ipc --base-info=$base-info --monitor-ip=$monitor-ip)"
+            ]
+        },
+        "outputs_throughput_jitter": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "duration": 10,
+                "port": 0,
+                "calc_rtt": "",
+                "tos": 100,
+                "src_ipaddrs": "--src_ipaddrs=127.0.0.1"
+            },
+            "commands": [
+                "(cd stream-replay; ./target/release/stream-replay-rx $port $duration calc-rtt $src_ipaddrs)"
+            ],
+            "outputs": {
+                "throughput": {
+                    "cmd": "echo $output_0",
+                    "format": "Average Throughput: (\\d+\\.\\d+) Mbps"
+                },
+                "packet_loss": {
+                    "cmd": "echo $output_0",
+                    "format": "Packet loss rate: (\\d+\\.\\d+)"
+                },
+                "stuttering rate":{
+                    "cmd": "echo $output_0",
+                    "format": "Stuttering rate: (\\d+\\.\\d+)"
+                }
+            }
+        },
+        "outputs_throughput_jitter_trace": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "duration": 10,
+                "port": 0,
+                "calc_rtt": "",
+                "tos": 100,
+                "src_ipaddrs": "--src_ipaddrs=127.0.0.1"
+            },
+            "commands": [
+                "(cd stream-replay; RUST_LOG=trace ./target/release/stream-replay-rx $port $duration calc-rtt $src_ipaddrs)"
+            ],
+            "outputs": {
+                "throughput": {
+                    "cmd": "echo $output_0",
+                    "format": "Average Throughput: (\\d+\\.\\d+) Mbps"
+                },
+                "packet_loss": {
+                    "cmd": "echo $output_0",
+                    "format": "Packet loss rate: (\\d+\\.\\d+)"
+                }
+            }
+        },
+        "warm_up":{
+            "description": "Cargo build stream-replay.",
+            "parameters":{},
+            "commands": [
+                "(cd stream-replay; cargo build --release)"
+            ]
+        },
+        "init_stream": {
+            "description": "Initialize total streams.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "stream_num": 0
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name reset $stream_num"
+            ]
+        },
+        "init_stream_para": {
+            "description": "Initialize 'port' value for each client stream.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "stream_idx": 0,
+                "port": 0,
+                "file_name": "",
+                "tos": 100,
+                "calc_rtt": false,
+                "no_logging": false,
+                "start": 0,
+                "stop":10,
+                "throttle": 0
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name $stream_idx $port $tos $file_name $calc_rtt $no_logging $start $stop $throttle"
+            ]
+        },
+        "set_priority":{
+            "description": "Modify 'priority' value for each client stream.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "idx" : 0,
+                "priority": 0
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name priority $idx $priority"
+            ]
+        },
+        "set_stream_val":{
+            "description": "Modify value for each client stream.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "idx" : 0,
+                "key" : "priority",
+                "val": 0
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name $key $idx $val"
+            ]
+        },
+        "set_tx_addrs":{
+            "description": "Modify 'tx_addr' value for each client stream.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "tx_addrs": ""
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name tx_addrs $tx_addrs"
+            ]
+        },
+        "throttle": {
+            "description": "Modify 'throttle' value for each client stream.",
+            "parameters": {
+                "manifest_name": "manifest.json",
+                "file_throttle": 0
+            },
+            "commands": [
+                "cd tools; python3 tool.py $manifest_name throttle $file_throttle"
+            ]
+        },
+        "run-replay-client": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "target_addr": "",
+                "duration": 10,
+                "manifest_name": "manifest.json",
+                "ipc-port": 11112
+            },
+            "commands": [
+                "(cd stream-replay; ./target/release/stream-replay data/$manifest_name $duration --ipc-port $ipc-port)"
+            ]
+        },
+        "run-replay-client_trace": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "target_addr": "",
+                "duration": 10,
+                "manifest_name": "manifest.json",
+                "ipc-port": 11112
+            },
+            "commands": [
+                "(cd stream-replay; RUST_LOG=trace ./target/release/stream-replay data/$manifest_name $duration --ipc-port $ipc-port)"
+            ]
+        },
+        "run-replay-client-Windows": {
+            "description": "Run stream-replay with default manifest file.",
+            "parameters": {
+                "target_addr": "",
+                "duration": 10,
+                "manifest_name": "manifest.json"
+            },
+            "commands": [
+                "(cd stream-replay; ./target/release/stream-replay.exe data/$manifest_name $target_addr $duration)"
+            ]
+        },
+        "compute_queue_length":{
+            "description": "Compute queue length.",
+            "parameters": {
+                "port": 0,
+                "tos": 100
+            },
+            "outputs": {
+                "length": {
+                    "cmd":"(python3 plot.py stream-replay/logs/log-$port@$tos.txt; rm -f stream-replay/logs/log-$port@$tos.txt)",
+                    "format":"(\\d+\\.\\d+)"
+                }
+            }
+        },
+        "read_mcs":{
+            "description":"Compute the mcs value",
+            "parameters":{
+                "ifname": ""
+            },
+            "outputs": {
+                "mcs_value": {
+                    "cmd":"cd tools; python3 read_mcs.py $ifname",
+                    "format":"TX bitrate for interface:\\s+(\\d+(\\.\\d+)?)"
+                }
+            }
+        },
+        "read_rtt":{
+            "description": "Read rtt",
+            "parameters": {
+                "port" : 0,
+                "tos" : 100
+            },
+            "outputs": {
+                "rtt": {
+                    "cmd":"(cd tools; python3 read_rtt.py -f ../stream-replay/logs/rtt-$port@$tos.txt ; rm -f stream-replay/logs/rtt-$port@$tos.txt)",
+                    "format":"(\\d+\\.\\d+)"
+                }
+            }
+        },
+        "read_ip_addr":{
+            "description": "read p2p or wlan ipv4 addr",
+            "parameters":{
+                "file_name":"ifconfig_output.txt",
+                "keyword": "wlan"
+            },
+            "commands": [
+                "cd tools; python3 ip_extract.py"
+            ],
+            "outputs": {
+                "ip_addr": {
+                    "cmd": "echo $output_0",
+                    "format":"(.*)"
+                }
+            }
+        },
+        "modify_edca":{
+            "description": "Modify edca value",
+            "parameters":{
+                "ac": 3,
+                "cw_min": -1,
+                "cw_max": -1,
+                "aifs": -1,
+                "ind": 1
+            },
+            "commands": [
+                "cd wlsops-hack; sudo python3 modify_edca.py --ac $ac --cw-min $cw_min --cw-max $cw_max --aifs $aifs --ind $ind"
+            ]
+        },
+        "reset_edca":{
+            "description": "Reset edca value",
+            "parameters":{
+                "ind": 1
+            },
+            "commands": [
+                "cd wlsops-hack; sudo python3 modify_edca.py --reset --ind $ind"
+            ]
+        },
+        "set_interference":{
+            "description": "Set interference",
+            "parameters":{
+                "target_ip": "192.168.3.35",
+                "target_port": 5201,
+                "duration" : 50,
+                "mbps": 0
+            },
+            "commands": [
+                "cd tools; python3 env_inter.py -i $target_ip -p $target_port -t $duration -b $mbps"
+            ]
+        },
+        "send_file":{
+            "description": "Send file",
+            "parameters":{
+                "target_ip": "192.168.3.82",
+                "file_name": "../stream-replay/logs/*.txt"
+            },
+            "commands":[
+                "cd tools; python3 file_tx.py -i $target_ip -f $file_name; rm -rf $file_name"
+            ]
+        },
+        "abuse_manifest":{
+            "description": "abuse manifest",
+            "parameters":{
+                "cmd": "echo Test"
+            },
+            "commands":[
+                "$cmd"
+            ]
+        },
+        "config_network":{
+            "description": "config network for transmission",
+            "parameters":{
+                "interface": "",
+                "password": ""
+            },
+            "commands":[
+                "cd tools; echo $password | sudo -S python3 set_route.py -i $interface"
+            ],
+            "outputs": {
+                "cmd_return": {
+                    "cmd": "echo $output_0",
+                    "format":"(.*)"
+                }
+            }
+        },
+        "create_file":{
+            "description": "create new data file",
+            "parameters":{
+                "thru": 10,
+                "arrivalGap": 1,
+                "variance": 0.1,
+                "num": 1000,
+                "arrivalVar": 0.5,
+                "name": "test.npy"
+            },
+            "commands":[
+                "cd tools; python3 create_data.py --thru $thru --arrivalGap $arrivalGap --name $name --variance $variance --arrivalVar $arrivalVar --num $num; mv $name ../stream-replay/data/"
+            ]
+        },
+        "get_channel":{
+            "description": "get channel of specific interface",
+            "parameters":{
+                "interface": "wlan0"
+            },
+            "commands":[
+                "cd tools; python3 get_channel.py -i $interface"
+            ],
+            "outputs":{
+                "channel_info": {
+                    "cmd": "echo $output_0",
+                    "format":"(.*)"
+                }
+            }
+        },
+        "clean_up_rx":{
+            "description": "clean up stream-replay-rx",
+            "parameters":{
+                "password": ""
+            },
+            "commands":[
+                "echo $password | sudo -S killall stream-replay-rx"
+            ]
+        }
+    }
+}

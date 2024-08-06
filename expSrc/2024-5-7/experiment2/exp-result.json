@@ -1,0 +1,28 @@
+[[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            7.216153,
+            0
+        ],
+        "channels": [
+            "5 GHz",
+            "2.4 GHz"
+        ],
+        "file_thru": 49.8,
+        "name": "proj1",
+        "rtt": 7.216153,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 99.459,
+        "name": "interference"
+    }
+],

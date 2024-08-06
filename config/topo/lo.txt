@@ -1,0 +1,2 @@
+STA1 --lo-- --lo-- SoftAP
+STA1 --enp3s0-- --lo-- SoftAP

@@ -1,0 +1,7 @@
+STA1 --wlx081f7163a83a-- --eth0-- SoftAP
+STA1 --wlx081f7163a912-- --eth0-- SoftAP
+STA2 --wlx081f7165e561-- --eth0-- SoftAP
+STA2 --wlx081f71631136-- --eth0-- SoftAP
+STA3 --wlx081f7163739a-- --eth0-- SoftAP
+STA3 --wlx081f7163a94f-- --eth0-- SoftAP
+

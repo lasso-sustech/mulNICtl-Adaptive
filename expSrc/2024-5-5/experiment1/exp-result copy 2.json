@@ -1,0 +1,921 @@
+[
+  {
+    "file_thru": "46.879"
+  },
+  {
+    "file_thru": "458.682"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9860813704496788,
+    "rtt": 0.009916769,
+    "channel_rtts": [
+      0.0,
+      0.001550427
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "46.824"
+  },
+  {
+    "file_thru": "458.359"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9903743315508021,
+    "rtt": 0.009951195,
+    "channel_rtts": [
+      0.0,
+      0.001581564
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "45.542"
+  },
+  {
+    "file_thru": "457.253"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.986096256684492,
+    "rtt": 0.010858654,
+    "channel_rtts": [
+      0.0,
+      0.002128508
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "46.535"
+  },
+  {
+    "file_thru": "402.292"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9850267379679144,
+    "rtt": 0.015553295,
+    "channel_rtts": [
+      0.0,
+      0.001937705
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "41.829"
+  },
+  {
+    "file_thru": "459.935"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9647058823529412,
+    "rtt": 0.018079778,
+    "channel_rtts": [
+      0.0,
+      0.00436915
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "44.359"
+  },
+  {
+    "file_thru": "417.162"
+  },
+  {
+    "tx_parts": [
+      0.95,
+      0.95
+    ]
+  },
+  {
+    "data_frac": 0.9807280513918629,
+    "rtt": 0.015152085,
+    "channel_rtts": [
+      0.000179484,
+      0.003612533
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "45.183"
+  },
+  {
+    "file_thru": "458.608"
+  },
+  {
+    "tx_parts": [
+      0.9,
+      0.9
+    ]
+  },
+  {
+    "data_frac": 0.9914438502673797,
+    "rtt": 0.009847792,
+    "channel_rtts": [
+      0.000369193,
+      0.002852433
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "46.104"
+  },
+  {
+    "file_thru": "457.000"
+  },
+  {
+    "tx_parts": [
+      0.85,
+      0.85
+    ]
+  },
+  {
+    "data_frac": 0.9946524064171123,
+    "rtt": 0.009274547,
+    "channel_rtts": [
+      0.000742878,
+      0.002801398
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "47.675"
+  },
+  {
+    "file_thru": "456.133"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.9946524064171123,
+    "rtt": 0.009075822,
+    "channel_rtts": [
+      0.00197768,
+      0.002963798
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "45.562"
+  },
+  {
+    "file_thru": "403.489"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.9614973262032086,
+    "rtt": 0.011298736,
+    "channel_rtts": [
+      0.003543041,
+      0.003523763
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "46.589"
+  },
+  {
+    "file_thru": "457.348"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.9978586723768736,
+    "rtt": 0.00905671,
+    "channel_rtts": [
+      0.003102565,
+      0.003361679
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "44.678"
+  },
+  {
+    "file_thru": "371.377"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.9518716577540107,
+    "rtt": 0.010407662,
+    "channel_rtts": [
+      0.003733848,
+      0.003421197
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "46.781"
+  },
+  {
+    "file_thru": "456.714"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.9903640256959315,
+    "rtt": 0.009758145,
+    "channel_rtts": [
+      0.003958293,
+      0.003652483
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "45.711"
+  },
+  {
+    "file_thru": "458.386"
+  },
+  {
+    "tx_parts": [
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "data_frac": 0.986096256684492,
+    "rtt": 0.00835602,
+    "channel_rtts": [
+      0.004014931,
+      0.002884226
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 470,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "43.790"
+  },
+  {
+    "file_thru": "86.330"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9721627408993576,
+    "rtt": 0.005784434,
+    "channel_rtts": [
+      0.0,
+      0.001518786
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "42.028"
+  },
+  {
+    "file_thru": "93.796"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9475935828877006,
+    "rtt": 0.004539453,
+    "channel_rtts": [
+      0.0,
+      0.001408012
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "42.438"
+  },
+  {
+    "file_thru": "93.644"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9593582887700535,
+    "rtt": 0.004621769,
+    "channel_rtts": [
+      0.0,
+      0.001413728
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "42.873"
+  },
+  {
+    "file_thru": "93.613"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9433155080213904,
+    "rtt": 0.004678683,
+    "channel_rtts": [
+      0.0,
+      0.001376297
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "45.210"
+  },
+  {
+    "file_thru": "92.792"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.983957219251337,
+    "rtt": 0.005471898,
+    "channel_rtts": [
+      0.0,
+      0.001509247
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  },
+  {
+    "file_thru": "42.875"
+  },
+  {
+    "file_thru": "94.154"
+  },
+  {
+    "tx_parts": [
+      1,
+      1
+    ]
+  },
+  {
+    "data_frac": 0.9572192513368984,
+    "rtt": 0.004508201,
+    "channel_rtts": [
+      0.0,
+      0.001452029
+    ],
+    "channel_probabilities": [
+      0.0,
+      1.0
+    ],
+    "file": null,
+    "interference2": null,
+    "proj": {
+      "thru": 50,
+      "link": "wlx081f7163a94f_enx207bd28789e5_STA1_SoftAP",
+      "port": 6204,
+      "file_type": "proj",
+      "ip_addrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ]
+    },
+    "interference": {
+      "thru": 100,
+      "link": "wlx081f7163a912_enx207bd28789e5_STA2_SoftAP",
+      "port": 6205,
+      "file_type": "file",
+      "ip_addrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ]
+    }
+  }]

@@ -1,0 +1,19 @@
+{
+    "streams": {
+            "type": "UDP",
+            "npy_file": "proj_6.25MB.npy",
+            "tos": 128,
+            "port": 6201,
+            "throttle": 0,
+            "start_offset": 0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": true,
+            "tx_ipaddrs": [
+                "127.0.0.1"
+            ],
+            "tx_parts": [
+                1.0
+            ]
+    }
+}

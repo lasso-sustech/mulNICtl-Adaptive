@@ -1,0 +1,2 @@
+STA1 --wlan0-- --wlan0-- STA2
+STA1 --p2p0-- --p2p0-- STA2

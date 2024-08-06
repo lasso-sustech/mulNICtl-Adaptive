@@ -1,0 +1,15 @@
+2024-07-25 18:02:31
+Task number : 1
+Task throughput : 32
+Interference number : 0
+Interference throughput : 1
+Interference gap : 0
+Interference tos : 96
+Total throughput : 32
+NoAda duration: 20
+{'throughput': '31.051', 'packet_loss': '0.00084', 'stuttering rate': '0.00062'}
+{}
+Adaptive:
+{'throughput': '31.289', 'packet_loss': '0.00138', 'stuttering rate': '0.00028'}
+{}
+Ada duration: 60

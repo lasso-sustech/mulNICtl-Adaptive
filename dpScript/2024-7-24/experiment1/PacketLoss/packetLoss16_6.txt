@@ -1,0 +1,33 @@
+{'throughput': '15.647', 'packet_loss': '0.00000', 'stuttering rate': '0.00273'}
+{'throughput': '15.660', 'packet_loss': '0.00000', 'stuttering rate': '0.00220'}
+{'throughput': '18.951'}
+{'throughput': '19.034'}
+{'throughput': '18.474'}
+{'throughput': '18.606'}
+{'throughput': '16.865'}
+{'throughput': '16.875'}
+{'throughput': '15.964'}
+{'throughput': '16.019'}
+{}
+{}
+{}
+{}
+{}
+{}
+Adaptive:
+{'throughput': '15.752', 'packet_loss': '0.00118', 'stuttering rate': '0.00220'}
+{'throughput': '15.762', 'packet_loss': '0.00000', 'stuttering rate': '0.00170'}
+{'throughput': '19.057'}
+{'throughput': '19.059'}
+{'throughput': '18.627'}
+{'throughput': '18.459'}
+{'throughput': '16.112'}
+{'throughput': '16.099'}
+{'throughput': '16.321'}
+{'throughput': '16.295'}
+{}
+{}
+{}
+{}
+{}
+{}
