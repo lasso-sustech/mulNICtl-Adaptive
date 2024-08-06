@@ -14,7 +14,6 @@ use std::str::FromStr;
 
 use clap::{Parser};
 use cores::back_switch_solver::BackSwitchSolver;
-use cores::green_solver::GRSolver;
 use serde::{Deserialize, Serialize};
 
 use crate::types::{action, qos, state, static_value::StaticValue};
@@ -27,7 +26,7 @@ use crate::cores::file_restrict::FileSolver;
 type HisQos = Vec<HashMap<String, Qos>>;
 type CtlRes = (HashMap<String, Action>, CtlState, Option<String>);
 trait DecSolver {
-    fn control(&self, qoses: HashMap<String, Qos>, channel_state: &State) -> CtlRes;
+    fn control(&self, his_qoses: &Vec<HashMap<String, Qos>>, channel_state: &State) -> CtlRes;
 }
 trait CenSolver {
     fn control(&self, qoses: &HisQos, ctl_task: String) -> CtlRes;
@@ -113,7 +112,7 @@ impl Controller {
         let solver = algorithm_selection(&self.glb_state);
         match solver {
             Some(solver) => {
-                let (controls, ctl_state, ctl_task) = solver.control(qoss, &self.glb_state);
+                let (controls, ctl_state, ctl_task) = solver.control(&self.history_qos, &self.glb_state);
                 self.ctl_state = ctl_state;
                 self.ctl_task = ctl_task;
                 println!("{:?}", controls);

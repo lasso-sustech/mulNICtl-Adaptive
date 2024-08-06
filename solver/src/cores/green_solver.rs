@@ -22,41 +22,16 @@ impl GSolver {
 }
 
 impl DecSolver for GSolver{
-    fn control(&self, qoses: HashMap<String, Qos>, channel_state: &State) -> CtlRes {
-
-        // if let Some(back_switch_name) = determine_back_switch(&qoses, 0.8){
-        //     let mut controls: HashMap<String, Action> = HashMap::new();
-
-        //     if let Some(qos) = qoses.get(back_switch_name) {
-        //         let channel_colors: Vec<Color>  = qos.channels.iter()
-        //             .filter_map(|channel| channel_state.color.get(channel).cloned())
-        //             .collect();
-                
-                
-        //         // add default offset to tx_parts
-        //         let tx_parts = if qos.tx_parts[0] + 0.1 <= 1.0 {
-        //             qos.tx_parts.clone().into_iter().map(|x| x + 0.1).collect()
-        //         }
-        //         else{
-        //             qos.tx_parts.clone().into_iter().map(|x| x - 0.1).collect()
-        //         };
-                
-        //         controls.insert(
-        //             back_switch_name.clone(),
-        //             Action::new(Some(tx_parts), None, Some(channel_colors)),
-        //         );
-        //     }
-
-        //     return (controls, CtlState::BackSwitch, Some(back_switch_name.clone()));
-        // }
-
-        let controls = qoses.into_iter().map(|(name, qos)| {
+    fn control(&self, his_qoses: &Vec<HashMap<String, Qos>>, channel_state: &State) -> CtlRes {
+        let qoses = his_qoses.last().unwrap();
+        let controls: HashMap<String, Action> = qoses.into_iter().map(|(name, qos)| {
             let channel_colors: Vec<Color>  = qos.channels.iter()
                 .filter_map(|channel| channel_state.color.get(channel).cloned())
                 .collect();
             if qos.channel_rtts.is_some(){
-                let tx_parts = ChannelBalanceSolver::new(self.is_all_balance).control(qos.clone(), channel_state);
-                (name, Action::new(Some(tx_parts), None, Some(channel_colors)))
+                let max_his_rtt = get_max_his_rtt(his_qoses, name, 10);
+                let tx_parts = ChannelBalanceSolver::new(self.is_all_balance).solve_by_rtt_balance(qos.clone(), channel_state, max_his_rtt);
+                (name.clone(), Action::new(Some(tx_parts), None, Some(channel_colors)))
             }
             else{
                 let mut throttle = qos.throttle + self.throttle_step_size;
@@ -65,7 +40,7 @@ impl DecSolver for GSolver{
                 } else if throttle >= 1000.0 {
                     throttle = 1000.0;
                 }
-                (name, Action::new(None, Some(throttle), Some(channel_colors)))
+                (name.clone(), Action::new(None, Some(throttle), Some(channel_colors)))
             }
         }).collect();
         let ctrl_state = CtlState::Normal;
@@ -74,74 +49,22 @@ impl DecSolver for GSolver{
     }
 }
 
-fn determine_back_switch(qoses: &HashMap<String, Qos>, alpha: f64) -> Option<&String>{
-    let mut back_switch_task = None;
-    for (name, qos) in qoses {
-        if let Some(channel_rtts) = qos.channel_rtts.clone() {
-            let tx_parts = qos.tx_parts.clone();
-            let target_rtt = qos.target_rtt;
-        
-            if channel_rtts[0] == 0.0 || channel_rtts[1] == 0.0 {
-                continue;
-            }
-
-            let res:Vec<bool> = tx_parts.into_iter().zip(channel_rtts.into_iter()).map(|(tx_part, channel_rtt)| {
-                if channel_rtt <= target_rtt * alpha * tx_part {
-                    true
+fn get_max_his_rtt(his_qoses: &Vec<HashMap<String, Qos>>, qos_name: &String, qos_range: usize) -> [f64; 2] {
+    let mut max_rtt = [0.0, 0.0];
+    // traverse inverse qos_range
+    let minimum_range = his_qoses.len() - his_qoses.len().min(qos_range as usize);
+    for i in (minimum_range..his_qoses.len()) {
+        if let Some(qos) = his_qoses[i].get(qos_name) {
+            if let Some(channel_rtts) = qos.channel_rtts.clone() {
+                for (idx, &rtt) in channel_rtts.iter().enumerate() {
+                    if rtt > max_rtt[idx] {
+                        max_rtt[idx] = rtt;
+                    }
                 }
-                else{
-                    false
-                }
-            }).collect();
-        
-            if res.into_iter().any(|x| x) {
-                back_switch_task = Some(name);
             }
         }
     }
-    back_switch_task
-}
-
-pub struct GRSolver {
-    #[warn(dead_code)]
-    pub backward_threshold: f64,
-    pub is_all_balance: bool,
-    pub throttle_step_size: f64,
-}
-
-#[allow(dead_code)]
-impl GRSolver {
-    pub fn new() -> Self {
-        GRSolver {
-            backward_threshold: 0.8,
-            is_all_balance: false,
-            throttle_step_size: 10.0,
-        }
-    }
-}
-
-impl DecSolver for GRSolver{
-    fn control(&self, qoses: HashMap<String, Qos>, channel_state: &State) -> CtlRes {
-        let controls = qoses.into_iter().map(|(name, qos)| {
-            let channel_colors: Vec<Color> = qos.channels.iter()
-                .filter_map(|channel| channel_state.color.get(channel).cloned())
-                .collect();
-            if qos.channel_rtts.is_some(){
-                let tx_parts = ChannelBalanceSolver::new(self.is_all_balance).control(qos.clone(), channel_state);
-                (name, Action::new(Some(tx_parts), None, Some(channel_colors)))
-            }
-            else{
-                let mut throttle = qos.throttle - self.throttle_step_size;
-                if throttle <= 0.0 {
-                    throttle = 1.0;
-                } else if throttle >= 1000.0 {
-                    throttle = 1000.0;
-                }
-                (name, Action::new(None, Some(throttle), Some(channel_colors)))
-            }
-        }).collect();
-        (controls, CtlState::Normal, None)
-    }
+    max_rtt
 }
 
 pub struct ChannelBalanceSolver {
@@ -167,15 +90,7 @@ impl ChannelBalanceSolver {
         }
     }
 
-    fn control(&mut self, qos: Qos, channel_state: &State) -> Vec<f64> {
-        if self.redundency_mode {
-            self.redundency_balance(qos)
-        } else {
-            self.solve_by_rtt_balance(qos, channel_state)
-        }
-    }
-
-    fn solve_by_rtt_balance(&mut self, qos: Qos, channel_state: &State) -> Vec<f64> {
+    fn solve_by_rtt_balance(&mut self, qos: Qos, channel_state: &State, last_val: [f64; 2]) -> Vec<f64> {
         let mut tx_parts = qos.tx_parts.clone();
 
 
@@ -184,13 +99,13 @@ impl ChannelBalanceSolver {
                 return tx_parts;
             }
 
-            if (channel_rtts[0] <= 0.012 && channel_rtts[1] == 0.0 ) {
+            if channel_rtts[0] <= 0.012 && channel_rtts[1] == 0.0 {
                 return tx_parts;
             }
 
-            // if (channel_rtts[1] <= 0.012 && channel_rtts[0] == 0.0 ) {
-            //     return tx_parts;
-            // }
+            if channel_rtts[1] == 0.0 && channel_rtts[0] <= last_val[0] {
+                return tx_parts;
+            }
 
             if (channel_rtts[0] - channel_rtts[1]).abs() > self.epsilon_rtt {
                 let direction = if channel_rtts[0] > channel_rtts[1] { 1 } else { 0 };

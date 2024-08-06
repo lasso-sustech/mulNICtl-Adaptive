@@ -7,23 +7,23 @@ pub struct FileSolver {
 }
 
 impl DecSolver for FileSolver {
-    fn control(&self, qoses: HashMap<String, Qos>, channel_state: &State) -> CtlRes {
-        let controls = qoses.into_iter().map(|(name, qos)| {
+    fn control(&self, his_qoses: &Vec<HashMap<String, Qos>>, channel_state: &State) -> CtlRes {
+        let qoses = &his_qoses[his_qoses.len() - 1];
+        let controls: HashMap<String, Action> = qoses.iter().map(|(name, qos)| {
             let channel_colors: Vec<Color> = qos.channels.iter()
-            .filter_map(|channel| channel_state.color.get(channel).cloned())
-            .collect();
+                .filter_map(|channel| channel_state.color.get(channel).cloned())
+                .collect();
 
-            if qos.channel_rtts.is_none(){
+            if qos.channel_rtts.is_none() {
                 let mut throttle = qos.throttle - self.step_size;
                 if throttle <= 0.0 {
                     throttle = 1.0;
                 }
                 println!("step_size: {}", self.step_size);
                 
-                (name, Action::new(None, Some(throttle), Some(channel_colors)))
-            }
-            else{
-                (name, Action::new(None, None, Some(channel_colors)))
+                (name.clone(), Action::new(None, Some(throttle), Some(channel_colors)))
+            } else {
+                (name.clone(), Action::new(None, None, Some(channel_colors)))
             }
         }).collect();
         (controls, CtlState::Normal ,None)
