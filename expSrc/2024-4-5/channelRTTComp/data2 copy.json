@@ -1,0 +1,421 @@
+[{
+  "data_frac": 0.9994663820704376,
+  "rtt": 0.00308653,
+  "channel_rtts": [
+    0.0,
+    0.000146987
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9727709556860651
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003118853,
+  "channel_rtts": [
+    0.0,
+    0.000170094
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9631803628601922
+  ]
+},
+{
+  "data_frac": 0.9994663820704376,
+  "rtt": 0.00312902,
+  "channel_rtts": [
+    0.0,
+    0.000163478
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9604911906033102
+  ]
+},
+{
+  "data_frac": 0.9994663820704376,
+  "rtt": 0.003122759,
+  "channel_rtts": [
+    0.0,
+    0.000154477
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9535504538174052
+  ]
+},
+{
+  "data_frac": 0.9994663820704376,
+  "rtt": 0.003113837,
+  "channel_rtts": [
+    0.0,
+    0.000146061
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9444741057127602
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005534698,
+  "channel_rtts": [
+    0.0,
+    0.001015483
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005477343,
+  "channel_rtts": [
+    0.0,
+    0.001116083
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005459694,
+  "channel_rtts": [
+    0.0,
+    0.001096557
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983982915109451
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005514778,
+  "channel_rtts": [
+    0.0,
+    0.001108956
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.996262680192205
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005505026,
+  "channel_rtts": [
+    0.0,
+    0.001073053
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983982915109451
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004913667,
+  "channel_rtts": [
+    0.0,
+    0.000643859
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004943094,
+  "channel_rtts": [
+    0.0,
+    0.000738459
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00491992,
+  "channel_rtts": [
+    0.0,
+    0.000814092
+  ],
+  "channel_probabilities": [
+    0.0,
+    1.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004916068,
+  "channel_rtts": [
+    0.0,
+    0.000697912
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004943771,
+  "channel_rtts": [
+    0.0,
+    0.000738063
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006248835,
+  "channel_rtts": [
+    0.0,
+    0.001328439
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006208239,
+  "channel_rtts": [
+    0.0,
+    0.001389294
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99679658302189
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006206592,
+  "channel_rtts": [
+    0.0,
+    0.001358261
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99786438868126
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006260859,
+  "channel_rtts": [
+    0.0,
+    0.001341387
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.997330485851575
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006118816,
+  "channel_rtts": [
+    0.0,
+    0.001513347
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.99893219434063
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007333665,
+  "channel_rtts": [
+    0.0,
+    0.001508612
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.999465811965812
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007078822,
+  "channel_rtts": [
+    0.0,
+    0.001355098
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983974358974359
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007104931,
+  "channel_rtts": [
+    0.0,
+    0.001596787
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9978632478632479
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.007127817,
+  "channel_rtts": [
+    0.0,
+    0.001474077
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983965793693212
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00737123,
+  "channel_rtts": [
+    0.0,
+    0.001280833
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9983974358974359
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009092045,
+  "channel_rtts": [
+    0.0,
+    0.001992218
+  ],
+  "channel_probabilities": [
+    0.0,
+    1.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008853253,
+  "channel_rtts": [
+    0.0,
+    0.001873538
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9989316239316239
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009295327,
+  "channel_rtts": [
+    0.0,
+    0.001444069
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.999465811965812
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008555355,
+  "channel_rtts": [
+    0.0,
+    0.00181334
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9989316239316239
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009257644,
+  "channel_rtts": [
+    0.0,
+    0.001878384
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9989316239316239
+  ]
+},
+{
+  "data_frac": 0.8878153515834675,
+  "rtt": 0.098463781,
+  "channel_rtts": [
+    0.0,
+    0.00537614
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9873035066505441
+  ]
+},
+{
+  "data_frac": 0.8676707907477138,
+  "rtt": 0.08846613,
+  "channel_rtts": [
+    0.0,
+    0.005470306
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9900805951642901
+  ]
+},
+{
+  "data_frac": 0.8724434876210979,
+  "rtt": 0.090191962,
+  "channel_rtts": [
+    0.0,
+    0.004860407
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9882788402220851
+  ]
+},
+{
+  "data_frac": 0.8789671866594944,
+  "rtt": 0.08711054,
+  "channel_rtts": [
+    0.0,
+    0.006695993
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9828641370869033
+  ]
+},
+{
+  "data_frac": 0.864124597207304,
+  "rtt": 0.086310447,
+  "channel_rtts": [
+    0.0,
+    0.00468634
+  ],
+  "channel_probabilities": [
+    0.0,
+    0.9894344313238036
+  ]
+}
+]

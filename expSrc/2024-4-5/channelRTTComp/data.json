@@ -1,0 +1,1979 @@
+[{
+  "data_frac": 1.0,
+  "rtt": 0.002163807,
+  "channel_rtts": [
+    3.9086e-05,
+    0.0
+  ],
+  "channel_probabilities": [
+    0.6632870864461046,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00216651,
+  "channel_rtts": [
+    4.5784e-05,
+    0.0
+  ],
+  "channel_probabilities": [
+    0.7379935965848452,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002177037,
+  "channel_rtts": [
+    3.9102e-05,
+    0.0
+  ],
+  "channel_probabilities": [
+    0.6013874066168623,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002165242,
+  "channel_rtts": [
+    4.0856e-05,
+    0.0
+  ],
+  "channel_probabilities": [
+    0.8655282817502669,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002171467,
+  "channel_rtts": [
+    3.823e-05,
+    0.0
+  ],
+  "channel_probabilities": [
+    0.8681963713980789,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002265944,
+  "channel_rtts": [
+    0.000160026,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00221664,
+  "channel_rtts": [
+    0.000170042,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002199851,
+  "channel_rtts": [
+    0.00016437,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002245832,
+  "channel_rtts": [
+    0.000184489,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002202955,
+  "channel_rtts": [
+    0.00017004,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002538023,
+  "channel_rtts": [
+    0.000324756,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002531422,
+  "channel_rtts": [
+    0.000293209,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002544525,
+  "channel_rtts": [
+    0.00034803,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002526642,
+  "channel_rtts": [
+    0.00028696,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002549152,
+  "channel_rtts": [
+    0.000336623,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002918407,
+  "channel_rtts": [
+    0.000501766,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002924508,
+  "channel_rtts": [
+    0.000430708,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002917788,
+  "channel_rtts": [
+    0.000480273,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002914258,
+  "channel_rtts": [
+    0.000442497,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.002991119,
+  "channel_rtts": [
+    0.000378379,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003217257,
+  "channel_rtts": [
+    0.000517639,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003220699,
+  "channel_rtts": [
+    0.000554531,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00323071,
+  "channel_rtts": [
+    0.000611147,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003243899,
+  "channel_rtts": [
+    0.000652294,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003356456,
+  "channel_rtts": [
+    0.00041079,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003659923,
+  "channel_rtts": [
+    0.000653219,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003573877,
+  "channel_rtts": [
+    0.000632619,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.003571827,
+  "channel_rtts": [
+    0.000733454,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00365334,
+  "channel_rtts": [
+    0.000692146,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00358877,
+  "channel_rtts": [
+    0.000756593,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.003522369,
+  "channel_rtts": [
+    0.000717086,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003534989,
+  "channel_rtts": [
+    0.000679639,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003809889,
+  "channel_rtts": [
+    0.000524313,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.999465811965812,
+  "rtt": 0.003817832,
+  "channel_rtts": [
+    0.000637831,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004066095,
+  "channel_rtts": [
+    0.00071688,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004238851,
+  "channel_rtts": [
+    0.000968396,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004141448,
+  "channel_rtts": [
+    0.000870223,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004305338,
+  "channel_rtts": [
+    0.000862788,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004360116,
+  "channel_rtts": [
+    0.000734298,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00449152,
+  "channel_rtts": [
+    0.000913697,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004078178,
+  "channel_rtts": [
+    0.000877713,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994655264564404,
+  "rtt": 0.004810402,
+  "channel_rtts": [
+    0.000760379,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00405422,
+  "channel_rtts": [
+    0.000831984,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.003799212,
+  "channel_rtts": [
+    0.00083802,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004338881,
+  "channel_rtts": [
+    0.000952041,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004475716,
+  "channel_rtts": [
+    0.00108195,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004877167,
+  "channel_rtts": [
+    0.001072719,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004711481,
+  "channel_rtts": [
+    0.00109052,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004621545,
+  "channel_rtts": [
+    0.001177804,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004698629,
+  "channel_rtts": [
+    0.001177925,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004794051,
+  "channel_rtts": [
+    0.001152879,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004660507,
+  "channel_rtts": [
+    0.00119167,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004056333,
+  "channel_rtts": [
+    0.000844666,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004886603,
+  "channel_rtts": [
+    0.001205865,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005209212,
+  "channel_rtts": [
+    0.001192895,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004602727,
+  "channel_rtts": [
+    0.001237251,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004886976,
+  "channel_rtts": [
+    0.001181238,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994655264564404,
+  "rtt": 0.005229636,
+  "channel_rtts": [
+    0.001210017,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004905392,
+  "channel_rtts": [
+    0.001170998,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004751991,
+  "channel_rtts": [
+    0.001003858,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005118545,
+  "channel_rtts": [
+    0.001298641,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005696029,
+  "channel_rtts": [
+    0.00110105,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.004707287,
+  "channel_rtts": [
+    0.001175465,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.005004688,
+  "channel_rtts": [
+    0.001271325,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.00463253,
+  "channel_rtts": [
+    0.001008259,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.005642346,
+  "channel_rtts": [
+    0.001485707,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005978753,
+  "channel_rtts": [
+    0.001441023,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00576791,
+  "channel_rtts": [
+    0.001593845,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005964812,
+  "channel_rtts": [
+    0.001593854,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.005580397,
+  "channel_rtts": [
+    0.001346996,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006520195,
+  "channel_rtts": [
+    0.002072932,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006233687,
+  "channel_rtts": [
+    0.002154391,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006776816,
+  "channel_rtts": [
+    0.001976216,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006750223,
+  "channel_rtts": [
+    0.001948255,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006619285,
+  "channel_rtts": [
+    0.002113009,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994646680942184,
+  "rtt": 0.006622672,
+  "channel_rtts": [
+    0.001599648,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994646680942184,
+  "rtt": 0.006506452,
+  "channel_rtts": [
+    0.001770146,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006288261,
+  "channel_rtts": [
+    0.001956614,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006633614,
+  "channel_rtts": [
+    0.001801684,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006587236,
+  "channel_rtts": [
+    0.001707994,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006899172,
+  "channel_rtts": [
+    0.001595147,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006899221,
+  "channel_rtts": [
+    0.00158318,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006383183,
+  "channel_rtts": [
+    0.00188095,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.007287284,
+  "channel_rtts": [
+    0.001738987,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.006879211,
+  "channel_rtts": [
+    0.001448293,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008388562,
+  "channel_rtts": [
+    0.001781647,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008703452,
+  "channel_rtts": [
+    0.001691346,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008298737,
+  "channel_rtts": [
+    0.002017695,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008169107,
+  "channel_rtts": [
+    0.001989147,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007503436,
+  "channel_rtts": [
+    0.002251225,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.007857559,
+  "channel_rtts": [
+    0.002187096,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00845474,
+  "channel_rtts": [
+    0.002111684,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008811959,
+  "channel_rtts": [
+    0.001952345,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008859081,
+  "channel_rtts": [
+    0.001865925,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.009125269,
+  "channel_rtts": [
+    0.001967655,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.009527223,
+  "channel_rtts": [
+    0.00206209,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008528623,
+  "channel_rtts": [
+    0.002255771,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008566263,
+  "channel_rtts": [
+    0.002057947,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00844669,
+  "channel_rtts": [
+    0.002529667,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00903633,
+  "channel_rtts": [
+    0.001838743,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.009057246,
+  "channel_rtts": [
+    0.002459317,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009168362,
+  "channel_rtts": [
+    0.002584403,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00934544,
+  "channel_rtts": [
+    0.002611139,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010024969,
+  "channel_rtts": [
+    0.00226043,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.008439012,
+  "channel_rtts": [
+    0.002409233,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.011122578,
+  "channel_rtts": [
+    0.002380405,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008486202,
+  "channel_rtts": [
+    0.002559661,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010515466,
+  "channel_rtts": [
+    0.002496736,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010416663,
+  "channel_rtts": [
+    0.002640934,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.009694047,
+  "channel_rtts": [
+    0.003060322,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010126088,
+  "channel_rtts": [
+    0.00283256,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9983948635634029,
+  "rtt": 0.009869445,
+  "channel_rtts": [
+    0.002408922,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009692637,
+  "channel_rtts": [
+    0.002268107,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009045925,
+  "channel_rtts": [
+    0.001936386,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009449382,
+  "channel_rtts": [
+    0.002855707,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008766393,
+  "channel_rtts": [
+    0.002008487,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008702912,
+  "channel_rtts": [
+    0.002696218,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009677858,
+  "channel_rtts": [
+    0.003198562,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.008858926,
+  "channel_rtts": [
+    0.002527023,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009403688,
+  "channel_rtts": [
+    0.003103256,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.011068949,
+  "channel_rtts": [
+    0.00357489,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.010529622,
+  "channel_rtts": [
+    0.004263062,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994652406417113,
+  "rtt": 0.009811408,
+  "channel_rtts": [
+    0.002323892,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009158742,
+  "channel_rtts": [
+    0.00278766,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010257488,
+  "channel_rtts": [
+    0.002189495,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.010042197,
+  "channel_rtts": [
+    0.002322552,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009258452,
+  "channel_rtts": [
+    0.002899451,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009846812,
+  "channel_rtts": [
+    0.002480484,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.012010201,
+  "channel_rtts": [
+    0.004835235,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.011828095,
+  "channel_rtts": [
+    0.003846647,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.00969437,
+  "channel_rtts": [
+    0.002453651,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.009142593,
+  "channel_rtts": [
+    0.002636501,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989299090422686,
+  "rtt": 0.009475851,
+  "channel_rtts": [
+    0.00294145,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009878804,
+  "channel_rtts": [
+    0.003706511,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010082247,
+  "channel_rtts": [
+    0.003641295,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.011383328,
+  "channel_rtts": [
+    0.003758713,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989299090422686,
+  "rtt": 0.010348289,
+  "channel_rtts": [
+    0.003917387,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009876288,
+  "channel_rtts": [
+    0.003079761,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009598013,
+  "channel_rtts": [
+    0.00295638,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010209204,
+  "channel_rtts": [
+    0.002673512,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989299090422686,
+  "rtt": 0.009296473,
+  "channel_rtts": [
+    0.002846894,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.010722564,
+  "channel_rtts": [
+    0.003591982,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989299090422686,
+  "rtt": 0.009883109,
+  "channel_rtts": [
+    0.00361346,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989293361884368,
+  "rtt": 0.009388262,
+  "channel_rtts": [
+    0.002641669,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.009470163,
+  "channel_rtts": [
+    0.002957821,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.0101148,
+  "channel_rtts": [
+    0.003039726,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012314195,
+  "channel_rtts": [
+    0.005225819,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012800583,
+  "channel_rtts": [
+    0.005382187,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9989299090422686,
+  "rtt": 0.010931862,
+  "channel_rtts": [
+    0.003029397,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.011550297,
+  "channel_rtts": [
+    0.003194729,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},{
+  "data_frac": 0.9989293361884368,
+  "rtt": 0.011076033,
+  "channel_rtts": [
+    0.004145888,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.010566053,
+  "channel_rtts": [
+    0.00310916,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9983940042826552,
+  "rtt": 0.011417179,
+  "channel_rtts": [
+    0.003019234,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.011432415,
+  "channel_rtts": [
+    0.003862134,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994649545211343,
+  "rtt": 0.010736697,
+  "channel_rtts": [
+    0.00311993,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9967897271268058,
+  "rtt": 0.01103785,
+  "channel_rtts": [
+    0.003451849,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9983940042826552,
+  "rtt": 0.012061324,
+  "channel_rtts": [
+    0.004202319,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9978586723768736,
+  "rtt": 0.011502319,
+  "channel_rtts": [
+    0.003139469,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9967897271268058,
+  "rtt": 0.011097648,
+  "channel_rtts": [
+    0.003145282,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9967880085653105,
+  "rtt": 0.011857122,
+  "channel_rtts": [
+    0.004053676,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9994646680942184,
+  "rtt": 0.011725224,
+  "channel_rtts": [
+    0.003157118,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.012882254,
+  "channel_rtts": [
+    0.004179354,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9983940042826552,
+  "rtt": 0.013055107,
+  "channel_rtts": [
+    0.004148825,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 1.0,
+  "rtt": 0.013899984,
+  "channel_rtts": [
+    0.003308448,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+},
+{
+  "data_frac": 0.9978586723768736,
+  "rtt": 0.012005343,
+  "channel_rtts": [
+    0.003623982,
+    0.0
+  ],
+  "channel_probabilities": [
+    1.0,
+    0.0
+  ]
+}]

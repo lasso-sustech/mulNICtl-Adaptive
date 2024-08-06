@@ -1,0 +1,239 @@
+[[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            8.31715,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 8.31715,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 190.743,
+        "name": "file"
+    },
+    {
+        "file_thru": 175.866,
+        "name": "interference"
+    },
+    {
+        "thru": 180,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            0.9989235737351991,
+            0.0
+        ],
+        "channel_rtts": [
+            7.448784,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.563,
+        "name": "proj1",
+        "rtt": 7.448784,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 289.496,
+        "name": "file"
+    },
+    {
+        "file_thru": 59.388,
+        "name": "interference"
+    },
+    {
+        "thru": 60,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            7.758961,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.512,
+        "name": "proj1",
+        "rtt": 7.758961,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 232.149,
+        "name": "file"
+    },
+    {
+        "file_thru": 59.454,
+        "name": "interference"
+    },
+    {
+        "thru": 60,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            7.70667,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 7.70667,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 265.373,
+        "name": "file"
+    },
+    {
+        "file_thru": 39.528,
+        "name": "interference"
+    },
+    {
+        "thru": 40,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            7.784669999999999,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 7.784669999999999,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 273.538,
+        "name": "file"
+    },
+    {
+        "file_thru": 79.134,
+        "name": "interference"
+    },
+    {
+        "thru": 80,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            8.396366,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.535,
+        "name": "proj1",
+        "rtt": 8.396366,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 228.429,
+        "name": "file"
+    },
+    {
+        "file_thru": 118.268,
+        "name": "interference"
+    },
+    {
+        "thru": 120,
+        "tos": 96
+    }
+],[
+    {
+        "channel_probabilities": [
+            1.0,
+            0.0
+        ],
+        "channel_rtts": [
+            8.100760000000001,
+            0.0
+        ],
+        "channels": [
+            "5 GHz"
+        ],
+        "file_thru": 49.546,
+        "name": "proj1",
+        "rtt": 8.100760000000001,
+        "target_rtt": 16,
+        "tx_parts": [
+            0,
+            0
+        ]
+    },
+    {
+        "file_thru": 250.802,
+        "name": "file"
+    },
+    {
+        "file_thru": 117.981,
+        "name": "interference"
+    },
+    {
+        "thru": 120,
+        "tos": 96
+    }
+]]
