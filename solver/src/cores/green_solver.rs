@@ -103,7 +103,7 @@ impl ChannelBalanceSolver {
                 return tx_parts;
             }
 
-            if channel_rtts[1] == 0.0 && channel_rtts[0] <= last_val[0] {
+            if channel_rtts[1] == 0.0 && channel_rtts[0] <= last_val[1] {
                 return tx_parts;
             }
 
