@@ -1,0 +1,33 @@
+{
+    "window_size": 500,
+    "streams": [
+        {
+            "type": "UDP",
+            "npy_file": "voice_0.05MB.npy",
+            "tos": 128,
+            "port": 6204,
+            "throttle": 0.0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": true,
+            "duration": [
+                0.0,
+                85.0
+            ]
+        },
+        {
+            "type": "UDP",
+            "npy_file": "proj_6.25MB.npy",
+            "tos": 128,
+            "port": 6205,
+            "throttle": 0.0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": true,
+            "duration": [
+                0.0,
+                85.0
+            ]
+        }
+    ]
+}

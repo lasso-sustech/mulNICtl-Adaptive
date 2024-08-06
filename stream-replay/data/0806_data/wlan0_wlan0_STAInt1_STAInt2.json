@@ -1,0 +1,44 @@
+{
+  "window_size": 500,
+  "tx_ipaddrs": [
+    "192.168.3.58"
+  ],
+  "streams": [
+    {
+      "type": "UDP",
+      "npy_file": "file_75MB.npy",
+      "tos": 96,
+      "port": 6204,
+      "throttle": 300,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": true,
+      "no_logging": true,
+      "tx_ipaddrs": [
+        "192.168.3.58"
+      ],
+      "tx_parts": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": "UDP",
+      "npy_file": "file_75MB.npy",
+      "tos": 96,
+      "port": 6205,
+      "throttle": 300,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": true,
+      "no_logging": true,
+      "tx_ipaddrs": [
+        "192.168.3.58"
+      ],
+      "tx_parts": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

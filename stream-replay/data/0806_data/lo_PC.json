@@ -1,0 +1,15 @@
+{
+    "window_size": 100,
+    "streams": [
+        {
+            "type": "UDP",
+            "npy_file": "proj_6.25MB.npy",
+            "tos": 96,
+            "port": 5201,
+            "throttle": 75.0,
+            "priority": "",
+            "calc_rtt": false,
+            "no_logging": true
+        }
+    ]
+}

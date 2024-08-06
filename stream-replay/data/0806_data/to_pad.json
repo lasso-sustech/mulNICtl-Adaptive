@@ -1,0 +1,65 @@
+{
+    "window_size": 100,
+    "streams": [
+        {
+            "type": "UDP",
+            "npy_file": "kb_0.125MB.npy",
+            "tos": 96,
+            "port": 5209,
+            "throttle": 0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": false
+        },
+        {
+            "type": "UDP",
+            "npy_file": "proj_6.25MB.npy",
+            "tos": 128,
+            "port": 5210,
+            "throttle": 0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": false
+        },
+        {
+            "type": "UDP",
+            "npy_file": "file_75MB.npy",
+            "tos": 96,
+            "port": 5211,
+            "throttle": 37.5,
+            "priority": "",
+            "calc_rtt": false,
+            "no_logging": true
+        },
+        {
+            "type": "UDP",
+            "npy_file": "file_75MB.npy",
+            "tos": 96,
+            "port": 5212,
+            "throttle": 37.5,
+            "priority": "",
+            "calc_rtt": false,
+            "no_logging": true
+        },
+        {
+            "type": "UDP",
+            "npy_file": "file_75MB.npy",
+            "tos": 96,
+            "port": 5213,
+            "throttle": 37.5,
+            "priority": "",
+            "calc_rtt": false,
+            "no_logging": true
+        },
+        {
+            "type": "UDP",
+            "npy_file": "file_75MB.npy",
+            "tos": 96,
+            "port": 5214,
+            "throttle": 37.5,
+            "priority": "",
+            "calc_rtt": false,
+            "no_logging": true
+        }
+    ]
+}

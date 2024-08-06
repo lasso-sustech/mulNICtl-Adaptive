@@ -1,0 +1,39 @@
+{
+  "window_size": 500,
+  "tx_ipaddrs": [
+    "192.168.3.15",
+    "192.168.49.125"
+  ],
+  "streams": [
+    {
+      "type": "UDP",
+      "npy_file": "0804testvideo16_1.npy",
+      "tos": 128,
+      "port": 6205,
+      "throttle": 46,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": true,
+      "no_logging": true,
+      "links": [
+        [
+          "192.168.49.125",
+          "192.168.49.1"
+        ],
+        [
+          "192.168.3.15",
+          "192.168.3.36"
+        ]
+      ],
+      "tx_parts": [
+        1.0,
+        1.0
+      ],
+      "target_rtt": 0.016,
+      "duration": [
+        0.0,
+        1000000.0
+      ]
+    }
+  ]
+}

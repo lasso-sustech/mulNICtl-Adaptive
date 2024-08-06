@@ -1,0 +1,30 @@
+{
+  "window_size": 500,
+  "tx_ipaddrs": [
+    "192.168.3.18"
+  ],
+  "streams": [
+    {
+      "type": "UDP",
+      "npy_file": "interference.npy",
+      "tos": 128,
+      "port": 6205,
+      "throttle": 0,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": true,
+      "no_logging": true,
+      "tx_ipaddrs": [
+        "192.168.3.18",
+        "192.168.3.18"
+      ],
+      "tx_parts": [
+        0.0,
+        0.0
+      ],
+      "target_rtt": 16,
+      "channels": [],
+      "name": ""
+    }
+  ]
+}

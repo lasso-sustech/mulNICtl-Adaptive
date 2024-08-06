@@ -1,0 +1,29 @@
+{
+  "window_size": 500,
+  "tx_ipaddrs": [
+    "192.168.3.29",
+    "192.168.3.27"
+  ],
+  "streams": [
+    {
+      "type": "UDP",
+      "npy_file": "proj3.npy",
+      "tos": 128,
+      "port": 6204,
+      "throttle": 0,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": true,
+      "no_logging": true,
+      "tx_ipaddrs": [
+        "192.168.3.27",
+        "192.168.3.29"
+      ],
+      "tx_parts": [
+        1.0,
+        1.0
+      ],
+      "target_rtt": 16
+    }
+  ]
+}

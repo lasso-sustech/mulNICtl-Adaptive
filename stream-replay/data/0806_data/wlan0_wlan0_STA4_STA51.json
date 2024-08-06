@@ -1,0 +1,69 @@
+{
+  "window_size": 500,
+  "tx_ipaddrs": [
+    "192.168.3.26",
+    "192.168.49.1"
+  ],
+  "streams": [
+    {
+      "type": "UDP",
+      "npy_file": "0804testfile_1.npy",
+      "tos": 96,
+      "port": 6209,
+      "throttle": 230,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": false,
+      "no_logging": true,
+      "links": [
+        [
+          "192.168.49.1",
+          "192.168.49.234"
+        ],
+        [
+          "192.168.3.26",
+          "192.168.3.38"
+        ]
+      ],
+      "tx_parts": [
+        1.0,
+        1.0
+      ],
+      "target_rtt": 0.016,
+      "duration": [
+        0.0,
+        1000000.0
+      ]
+    },
+    {
+      "type": "UDP",
+      "npy_file": "0804testfile_2.npy",
+      "tos": 96,
+      "port": 6210,
+      "throttle": 230,
+      "start_offset": 0,
+      "priority": "",
+      "calc_rtt": false,
+      "no_logging": true,
+      "links": [
+        [
+          "192.168.49.1",
+          "192.168.49.234"
+        ],
+        [
+          "192.168.3.26",
+          "192.168.3.38"
+        ]
+      ],
+      "tx_parts": [
+        1.0,
+        1.0
+      ],
+      "target_rtt": 0.016,
+      "duration": [
+        0.0,
+        1000000.0
+      ]
+    }
+  ]
+}

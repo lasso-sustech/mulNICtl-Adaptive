@@ -1,0 +1,15 @@
+{
+    "window_size": 1000,
+    "streams": [
+        {
+            "type": "UDP",
+            "npy_file": "voice_0.05MB.npy",
+            "tos": 128,
+            "port": 6203,
+            "throttle": 0,
+            "priority": "",
+            "calc_rtt": true,
+            "no_logging": false
+        }
+    ]
+}
