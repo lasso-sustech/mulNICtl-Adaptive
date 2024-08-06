@@ -1,5 +1,0 @@
-{'throughput': '49.258', 'packet_loss': '0.00082'}
-{}
-Adaptive:
-{'throughput': '49.451', 'packet_loss': '0.00000'}
-{}

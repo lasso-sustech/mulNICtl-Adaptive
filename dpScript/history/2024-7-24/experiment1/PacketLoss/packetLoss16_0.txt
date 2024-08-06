@@ -1,9 +1,0 @@
-{'throughput': '15.712', 'packet_loss': '0.00000', 'stuttering rate': '0.00042'}
-{'throughput': '15.712', 'packet_loss': '0.00000', 'stuttering rate': '0.00000'}
-{}
-{}
-Adaptive:
-{'throughput': '15.768', 'packet_loss': '0.00024', 'stuttering rate': '0.00023'}
-{'throughput': '15.767', 'packet_loss': '0.00047', 'stuttering rate': '0.00021'}
-{}
-{}

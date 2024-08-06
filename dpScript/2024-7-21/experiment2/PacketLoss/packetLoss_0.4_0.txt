@@ -1,2 +1,0 @@
-{'throughput': '49.193', 'packet_loss': '0.00000'}
-{}
