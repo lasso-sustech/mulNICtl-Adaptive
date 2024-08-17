@@ -1,0 +1,16 @@
+2024-07-26 22:18:02
+interference : R*2+2+2F (5G)
+Task number : 4
+Task throughput : 30
+Interference number : 0
+Interference throughput : 1
+Interference gap : 0
+Interference tos : 96
+Total throughput : 120
+NoAda duration: 30
+{'throughput': '28.925', 'packet_loss': '0.02662', 'stuttering rate': '0.00146'}
+{'throughput': '29.032', 'packet_loss': '0.01776', 'stuttering rate': '0.00144'}
+{'throughput': '29.240', 'packet_loss': '0.00000', 'stuttering rate': '0.00101'}
+{'throughput': '29.247', 'packet_loss': '0.00000', 'stuttering rate': '0.00104'}
+{}
+{}

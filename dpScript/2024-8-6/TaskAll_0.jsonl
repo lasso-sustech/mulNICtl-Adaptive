@@ -1,0 +1,2 @@
+trans_manifests: {'0804testvideo16_1': {'thru': 16, 'file_type': 'proj', 'link': 'wlan0_wlan0_STA4_STA132', 'port': 6205, 'links': [['192.168.49.1', '192.168.49.125'], ['192.168.3.26', '192.168.3.15']], 'tx_parts': [1, 1], 'tos': 128, 'channels': ['5 GHz', '2.4 GHz']}}
+queueResult: [{'throughput': '14.408', 'packet_loss': '0.00055', 'stuttering rate': '0.00172'}, {}]

@@ -160,7 +160,7 @@ fn optimize(
     // Start Control    
     let mut controller = Controller::new();
     println!("Start Control");
-    for idx in 0..100 {
+    for idx in 0..120 {
         // let _ = send_socket.send_to(String::from("Collect QoS").as_bytes(), monitor_ip.clone());
         let stats = ipc_manager.qos_collect();
 
@@ -173,7 +173,7 @@ fn optimize(
             }
         }
         // println!("{:?}", &qoss);
-        if idx < 50{
+        if idx < 60{
         match serde_json::to_string(&qoss) {
             Ok(value) => {
                 let _ =  send_socket.send_to(value.as_bytes(), monitor_ip.clone());

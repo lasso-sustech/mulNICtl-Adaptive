@@ -1,0 +1,9 @@
+Adaptive:
+{'throughput': '15.897', 'packet_loss': '0.00187'}
+{'throughput': '15.903', 'packet_loss': '0.00000'}
+{'throughput': '90.275'}
+{'throughput': '22.759'}
+{}
+{}
+{}
+{}

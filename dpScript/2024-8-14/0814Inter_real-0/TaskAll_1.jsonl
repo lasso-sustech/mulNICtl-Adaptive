@@ -1,0 +1,2 @@
+trans_manifests: {'file1': {'thru': 0.01, 'arrivalGap': 16, 'file_type': 'proj', 'link': 'wlan0_wlan0_STA3_STA13', 'port': 6205, 'links': [['192.168.49.28', '192.168.49.1'], ['192.168.3.27', '192.168.3.30']], 'tx_parts': [1, 1], 'tos': 128, 'channels': ['5 GHz', '2.4 GHz']}}
+queueResult: [{'throughput': '0.019', 'packet_loss': '0.00000', 'stuttering rate': '0.02420'}, {}]

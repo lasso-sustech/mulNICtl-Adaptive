@@ -6,10 +6,6 @@ STA3 --wlan0-- --wlan0-- STA132
 STA3 --p2p0-- --p2p0-- STA132
 STA3 --wlan0-- --wlan0-- STA13
 STA3 --p2p0-- --p2p0-- STA13
-STA51 --wlan0-- --wlan0-- STA3
-STA51 --p2p0-- --p2p0-- STA3
-STA51 --wlan0-- --wlan0-- STA4
-STA51 --p2p0-- --p2p0-- STA4
 STA132 --wlan0-- --wlan0-- STA3
 STA132 --p2p0-- --p2p0-- STA3
 STA13 --wlan0-- --wlan0-- STA3

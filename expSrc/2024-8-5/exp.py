@@ -30,7 +30,7 @@ def create_transmission(trans_manifests, topo, arrivalGap = 16):
         file_name       = f'{name}.npy'
         print(f"Creating transmission file {file_name} with {trans_manifest['thru']} at {sender}")
         assert trans_manifest['thru'] > 0
-
+#############################################################
         # conn.batch(sender, "create_file", {"thru": trans_manifest['thru'], "arrivalGap": arrivalGap, "name": f'{name}.npy', "num": 20000}).wait(0.5).apply()
         
         temp        = stream.stream()
@@ -294,9 +294,9 @@ trans_manifests = {
 
         'thru'      : thru,
         'file_type' : 'proj',
-        'link'      : links[0],
+        'link'      : links[4],
         'port'      : 6207,
-        'links'     : [topo.get_link_ips(links[1]),topo.get_link_ips(links[0])],
+        'links'     : [topo.get_link_ips(links[5]),topo.get_link_ips(links[4])],
         'tx_parts'  : [1,1],
         'tos'       : 128,
         'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
@@ -305,35 +305,35 @@ trans_manifests = {
 
         'thru'      : thru,
         'file_type' : 'proj',
-        'link'      : links[2],
+        'link'      : links[6],
         'port'      : 6208,
-        'links'     : [topo.get_link_ips(links[3]),topo.get_link_ips(links[2])],
+        'links'     : [topo.get_link_ips(links[7]),topo.get_link_ips(links[6])],
         'tx_parts'  : [1,1],
         'tos'       : 128,
         'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
     },
-    '0804testfile_1': {
+    # '0804testfile_1': {
 
-        'thru'      : 275,
-        'file_type' : 'file',
-        'link'      : links[20],
-        'port'      : 6209,
-        'links'     : [topo.get_link_ips(links[21]),topo.get_link_ips(links[20])],
-        'tx_parts'  : [1,1],
-        'tos'       : 96,
-        'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
-    },
-    '0804testfile_2': {
+    #     'thru'      : 100,
+    #     'file_type' : 'file',
+    #     'link'      : links[18],
+    #     'port'      : 6209,
+    #     'links'     : [topo.get_link_ips(links[19]),topo.get_link_ips(links[18])],
+    #     'tx_parts'  : [1,1],
+    #     'tos'       : 96,
+    #     'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
+    # },
+    # '0804testfile_2': {
 
-        'thru'      : 275,
-        'file_type' : 'file',
-        'link'      : links[20],
-        'port'      : 6210,
-        'links'     : [topo.get_link_ips(links[21]),topo.get_link_ips(links[20])],
-        'tx_parts'  : [1,1],
-        'tos'       : 96,
-        'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
-    },
+    #     'thru'      : 100,
+    #     'file_type' : 'file',
+    #     'link'      : links[18],
+    #     'port'      : 6210,
+    #     'links'     : [topo.get_link_ips(links[19]),topo.get_link_ips(links[18])],
+    #     'tx_parts'  : [1,1],
+    #     'tos'       : 96,
+    #     'channels'  : [constHead.CHANNEL0, constHead.CHANNEL1],
+    # },
     # '0804testfile100_3': {
 
     #     'thru'      : 100,
@@ -426,7 +426,7 @@ topo.show()
 print("trans_manifests: ",trans_manifests)
 # exit()
 ctrller = ctl.CtlManager()
-ctrller.duration = 120
+ctrller.duration = 100
 target_ips, name2ipc = ctl.ipcManager.prepare_ipc(topo)
 base_info = ctl.graph_qos_collections(topo)
 
@@ -447,8 +447,8 @@ base_info = ctl.graph_qos_collections(topo)
 # txIp = "192.168.1.110"
 conn = Connector()
 control = "STA132"
+# monitor_ip = "192.168.3.72:6405"
 monitor_ip = "192.168.3.72:6405"
-# monitor_ip = "192.168.1.111:6405"
 import base64
 ips = base64.b64encode( json.dumps(target_ips).encode() ).decode()
 command = f"cargo run -- --target-ips={ips} --name2ipc={base64.b64encode( json.dumps(name2ipc).encode() ).decode()} --base-info={base64.b64encode( json.dumps(base_info).encode() ).decode()} --monitor-ip {monitor_ip}"
@@ -478,8 +478,8 @@ def datatransfer():
     import socket
     import scale
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    # s.bind(("192.168.3.72",6405))
     s.bind(("192.168.3.72",6405))
-    # s.bind(("192.168.1.111",6405))
     import matplotlib.pyplot as plt
     from matplotlib import rcParams
     import numpy as np
@@ -636,7 +636,7 @@ def start_comm_process():
 
 def fileTransfer(targetIP,filepath):
     portlist = [x for x in range(6205,6205+taskNum)]
-    linkList = [links[0], links[2], links[0],links[2]] #######################################
+    linkList = [links[0], links[2], links[4],links[6]] #######################################
     for linkidx,port in enumerate(portlist):
         print("port: ", port)
         ctl.RxfileTransfer(topo, targetIP,  filepath+"stuttering/", f"../stream-replay/logs/stuttering-{port}.txt" , linkList[linkidx])

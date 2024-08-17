@@ -103,7 +103,7 @@ impl ChannelBalanceSolver {
                 return tx_parts;
             }
 
-            if channel_rtts[1] == 0.0 && channel_rtts[0] <= last_val[1] {
+            if channel_rtts[0] == 0.0 && channel_rtts[1] <= last_val[0] {
                 return tx_parts;
             }
 
@@ -114,9 +114,10 @@ impl ChannelBalanceSolver {
                 // if channel_state.color.get(&qos.channels[direction]).cloned() == Some(Color::Red) {
                 //     return tx_parts;
                 // }
-
-                tx_parts[0] += if channel_rtts[0] > channel_rtts[1] { -self.min_step } else { self.min_step };
-                // tx_parts[0] = format!("{:.2}", tx_parts[0].clamp(0.0, 1.0)).parse().unwrap();
+                let scale_factor = 1.0;
+                let step = self.min_step * scale_factor * (channel_rtts[0] - channel_rtts[1]).abs() / self.epsilon_rtt;
+                tx_parts[0] += if channel_rtts[0] > channel_rtts[1] { -step } else { step };
+                tx_parts[0] = format!("{:.2}", tx_parts[0].clamp(0.0, 1.0)).parse().unwrap();
                 tx_parts[1] = tx_parts[0];
             }
         }

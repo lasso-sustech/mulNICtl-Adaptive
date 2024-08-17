@@ -99,6 +99,7 @@ GB_CONTROL_SCHEMA = Schema({
 traffic_config_schema = Schema(Or({
     'thru'      : Or(int, float),
     'link'      : str,
+    "arrivalGap": int,
     'port'      : int,
     'file_type' : Or('file', 'proj'),
     'links'     : [[str]],

@@ -253,4 +253,14 @@ def exp_2024_8_5():
     import sys
     sys.path.append('./expSrc/2024-8-5')
     import exp
-exp_2024_8_5()
+# exp_2024_8_5()
+def exp_2024_8_6():
+    import sys
+    sys.path.append('./expSrc/2024-8-6')
+    import exp
+# exp_2024_8_6()
+def exp_2024_8_14():
+    import sys
+    sys.path.append('./expSrc/2024-8-14')
+    import exp
+exp_2024_8_14()

@@ -60,8 +60,9 @@ def outlier_removal(data, thresh=100):
 
 
 def main():
-    inerferenceFile = "./2_4G_10M.txt"
-    Taskfile = "../../../dpScript/2024-8-6/output9.txt"
+    inerferenceFile = "./5G_16M.txt"
+    Taskfile = "../../../dpScript/2024-8-6/rtt/output1.txt"
+    # Taskfile = "../../../dpScript/2024-8-6/output9.txt"
     print(inerferenceFile)
     rttDict = {}
     delLastLine(inerferenceFile)
