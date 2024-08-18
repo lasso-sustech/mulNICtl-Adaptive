@@ -1,6 +1,8 @@
 use std::{collections::HashMap};
 
-use crate::{action::Action, qos::Qos, state::State, types::state::Color, CtlRes, CtlState, DecSolver};
+use crate::{action::Action, qos::Qos, state::State, types::{parameter::HYPER_PARAMETER, state::Color}, CtlRes, CtlState, DecSolver, HisQos};
+
+use super::{checker::determine_forward_switch, foward_switch_solver::forward_predict};
 
 
 pub struct GSolver {
@@ -30,7 +32,7 @@ impl DecSolver for GSolver{
                 .collect();
             if qos.channel_rtts.is_some(){
                 let max_his_rtt = get_max_his_rtt(his_qoses, name, 10);
-                let tx_parts = ChannelBalanceSolver::new(self.is_all_balance).solve_by_rtt_balance(qos.clone(), channel_state, max_his_rtt);
+                let tx_parts = ChannelBalanceSolver::new().solve_by_rtt_balance(qos.clone(), his_qoses, name.clone());
                 (name.clone(), Action::new(Some(tx_parts), None, Some(channel_colors)))
             }
             else{
@@ -70,56 +72,64 @@ fn get_max_his_rtt(his_qoses: &Vec<HashMap<String, Qos>>, qos_name: &String, qos
 pub struct ChannelBalanceSolver {
     inc_direction: [i32; 2],
     min_step: f64,
+    max_step: f64,
     epsilon_rtt: f64,
+    scale_factor: f64,
     epsilon_prob_upper: f64,
     epsilon_prob_lower: f64,
     redundency_mode: bool,
-    is_all_balance: bool,
 }
 
 impl ChannelBalanceSolver {
-    fn new(is_all_balance: bool) -> Self {
+    pub fn new() -> Self {
         ChannelBalanceSolver {
             inc_direction: [-1, 1],
             min_step: 0.05,
-            epsilon_rtt: 0.002,
+            max_step: HYPER_PARAMETER.scale_factor * HYPER_PARAMETER.balance_channel_rtt_thres / HYPER_PARAMETER.epsilon_rtt,
+            epsilon_rtt: HYPER_PARAMETER.epsilon_rtt,
+            scale_factor: HYPER_PARAMETER.scale_factor,
             epsilon_prob_upper: 0.6,
             epsilon_prob_lower: 0.01,
             redundency_mode: false,
-            is_all_balance: is_all_balance,
         }
     }
 
-    fn solve_by_rtt_balance(&mut self, qos: Qos, channel_state: &State, last_val: [f64; 2]) -> Vec<f64> {
+    pub fn control(&mut self, qos: Qos, his_qoses: &HisQos, name: String) -> Vec<f64> {
+        if self.redundency_mode {
+            self.redundency_balance(qos)
+        } else {
+            self.solve_by_rtt_balance(qos, his_qoses, name)
+        }
+    }
+
+    fn solve_by_rtt_balance(&mut self, qos: Qos, his_qoses: &HisQos, name: String) -> Vec<f64> {
         let mut tx_parts = qos.tx_parts.clone();
 
+        if let (Some(channel_rtts), Some(_rtt)) = (qos.channel_rtts, qos.rtt){
 
-        if let Some(channel_rtts) = qos.channel_rtts {
-            if !self.is_all_balance && qos.tx_parts.iter().any(|&tx_part| tx_part == 0.0 || tx_part == 1.0) {
+            let diff = (channel_rtts[0] - channel_rtts[1]).abs();
+
+            if diff <= self.epsilon_rtt {
                 return tx_parts;
             }
-
-            if channel_rtts[0] <= 0.012 && channel_rtts[1] == 0.0 {
-                return tx_parts;
-            }
-
-            if channel_rtts[0] == 0.0 && channel_rtts[1] <= last_val[0] {
-                return tx_parts;
-            }
-
-            if (channel_rtts[0] - channel_rtts[1]).abs() > self.epsilon_rtt {
-                let direction = if channel_rtts[0] > channel_rtts[1] { 1 } else { 0 };
-
-                // if the direction is toward yellow or red channel, stop it
-                // if channel_state.color.get(&qos.channels[direction]).cloned() == Some(Color::Red) {
-                //     return tx_parts;
-                // }
-                let scale_factor = 1.0;
-                let step = self.min_step * scale_factor * (channel_rtts[0] - channel_rtts[1]).abs() / self.epsilon_rtt;
+            else if diff < HYPER_PARAMETER.balance_channel_rtt_thres{
+                let step = self.min_step * self.scale_factor * diff / self.epsilon_rtt;
                 tx_parts[0] += if channel_rtts[0] > channel_rtts[1] { -step } else { step };
                 tx_parts[0] = format!("{:.2}", tx_parts[0].clamp(0.0, 1.0)).parse().unwrap();
                 tx_parts[1] = tx_parts[0];
+                return tx_parts;
             }
+            else if determine_forward_switch(his_qoses, &name) {
+                return forward_predict(his_qoses, &name);
+            }
+            else {
+                let step = self.max_step;
+                tx_parts[0] += if channel_rtts[0] > channel_rtts[1] { -step } else { step };
+                tx_parts[0] = format!("{:.2}", tx_parts[0].clamp(0.0, 1.0)).parse().unwrap();
+                tx_parts[1] = tx_parts[0];
+                return tx_parts;
+            }
+
         }
 
         tx_parts
