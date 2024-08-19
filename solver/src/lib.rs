@@ -120,19 +120,6 @@ impl Controller {
             },
             None => HashMap::new(),
         }
-        
-        // }
-        // else {
-        //     if self.ctl_state == CtlState::BackSwitch {
-        //         let solver = BackSwitchSolver::new();
-        //         let (controls, ctl_state, _) = solver.control(&self.history_qos, self.ctl_task.clone().unwrap());
-        //         self.ctl_state = ctl_state;
-        //         controls
-        //     }
-        //     else {
-        //         HashMap::new()
-        //     }
-        // }
     }
 }
 

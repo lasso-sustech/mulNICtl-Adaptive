@@ -107,7 +107,10 @@ impl ChannelBalanceSolver {
 
         if let (Some(channel_rtts), Some(_rtt)) = (qos.channel_rtts, qos.rtt){
 
-            let diff = (channel_rtts[0] - channel_rtts[1]).abs();
+            let diff = match tx_parts.iter().any( |&x| x == 0.0 || x == 1.0) {
+                true => self.epsilon_rtt * 3.0, // control the initial step
+                false => (channel_rtts[0] - channel_rtts[1]).abs(),
+            };
 
             if diff <= self.epsilon_rtt {
                 return tx_parts;
